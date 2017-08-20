@@ -2,9 +2,9 @@
   "name": "hello-koa",
   "version": "1.0.0",
   "description": "A simple Hello World with Koa and ES2017",
-  "main": "index.js",
+  "main": "hello.js",
   "scripts": {
-    "start": "nodemon src/index.js --exec babel-node",
+    "start": "nodemon src/hello.js --exec babel-node",
     "test": "make test"
   },
   "repository": {
