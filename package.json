@@ -1,0 +1,35 @@
+{
+  "name": "hello-koa",
+  "version": "1.0.0",
+  "description": "A simple Hello World with Koa and ES2017",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node",
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/romeubertho/hello-koa.git"
+  },
+  "keywords": [
+    "npm",
+    "nodejs",
+    "koajs"
+  ],
+  "author": "Romeu Bertho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/romeubertho/KoajsExample1/issues"
+  },
+  "homepage": "https://github.com/romeubertho/KoajsExample1#readme",
+  "dependencies": {
+    "koa": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-flow": "^6.23.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "nodemon": "^1.11.0"
+  }
+}
